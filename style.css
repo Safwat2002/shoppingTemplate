@@ -612,3 +612,28 @@ header.shadow{
     }
 
 }
+
+/* Scroll to top button  */
+
+.scroll-top{
+    position: fixed;
+    bottom:60px;
+    right: 40px;
+    z-index: 100;
+    background-color: var(--main-color);
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+
+.scroll-top a{
+    color:var(--bg-color)
+}
+.scroll-top:hover {
+    opacity: 0.7;
+}

@@ -2,6 +2,7 @@ let search = document.querySelector('.search-box');
 let cart = document.querySelector(".cart");
 let user = document.querySelector(".user");
 let navbar = document.querySelector(".navbar");
+let toTopButton = document.querySelector(".scroll-top");
 
 
 document.querySelector("#search-icon").addEventListener("click", ()=>{
